@@ -675,7 +675,7 @@ body.light-theme .progress-bar {
 
 .languages-grid {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -733,7 +733,7 @@ body.light-theme .lang-circle circle {
 .languages-grid {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .lang-card {
