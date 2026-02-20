@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneesha Mannam | ASP.Net Developer</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mobile Navigation Toggle -->
+    <div class="mobile-nav-toggle" id="navToggle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <!-- Fixed Side Navigation -->
+    <aside class="sidebar" id="sidebar">
+        <div class="theme-toggle" id="themeToggle">
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="profile-container">
+            <div class="profile-img">
+                <img src="assets/image/profile.png" alt="Maneesha Mannam">
+            </div>
+            <h1 class="name">Maneesha Mannam</h1>
+            <p class="designation">ASP.Net Developer</p>
+            <p class="title-line">Backend Specialist</p>
+        </div>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fa-solid fa-code"></i> Projects</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fa-solid fa-brain"></i> Skills</a></li>
+                <li><a href="#languages" class="nav-link"><i class="fa-solid fa-language"></i> Languages</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/maneesha-mannam-3465b833b"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a
+                    href="mailto:mannammaneesh97@gmail.com?subject=Portfolio Inquiry&body=Hello Maneesha, I would like to discuss a project with you."><i
+                        class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="assets/resume/MANEESHA RESUME.pdf" class="btn-download">Download Resume <i
+                    class="fa-solid fa-download"></i></a>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="animated-bg">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="hero-content" data-aos="fade-up">
+                <h3 class="hi-text">Hi, I'm</h3>
+                <h2 class="typing-text" id="typing-text"></h2>
+                <p class="hero-tagline">"Building dynamic web applications using ASP.NET Framework with a
+                    strong foundation in backend development."</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down">
+                <i class="fa-solid fa-chevron-down"></i>
+                <span>Scroll Down</span>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section common-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-right">
+                    <span class="section-subtitle">Discovery</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="row about-row">
+                    <div class="col-6 about-text" data-aos="fade-up">
+                        <p class="main-para">
+                            A dedicated and detail-oriented ASP.NET Developer with a passion for backend
+                            systems and database-driven applications. I focus on writing clean,
+                            maintainable code and building efficient web solutions. As a fresher,
+                            I am eager to apply my technical
+                            knowledge in real-world projects and grow as a professional software developer..
+                        </p>
+                        <p>
+                            Quick-learning ASP.NET developer with strong CS fundamentals,
+                            skilled in C#, ASP.NET MVC, Web API, SQL Server, and frontend basics.
+                        </p>
+                    </div>
+                    <div class="col-6 about-details" data-aos="fade-up" data-aos-delay="200">
+                        <div class="details-card">
+                            <ul class="details-list">
+                                <li><strong>Name:</strong> <span>Maneesha Mannam</span></li>
+                                <li><strong>Address:</strong> <span>voletivaripalem, Andhra Pradesh</span></li>
+                                <li><strong>Phone:</strong> <span>+91 8919249347 </span></li>
+                                <li><strong>Email:</strong> <span>mannammaneesha97@gmail.com</span></li>
+                                <li><strong>Nationality:</strong> <span>Indian</span></li>
+                                <li><strong>Date of Birth:</strong> <span>24 oct 2003</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Projects Section -->
+        <section class="edu-proj-section common-padding">
+            <div class="container">
+                <div class="row split-row">
+                    <!-- Education Column -->
+                    <div id="education" class="col-5 education-column">
+                        <div class="section-header" data-aos="fade-right">
+                            <span class="section-subtitle">Career Path</span>
+                            <h2 class="section-title">Education</h2>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item" data-aos="fade-up">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-year">2021 - 2025</span>
+                                    <h4>QIS College of Engineering and Technology (IT)</h4>
+                                    <p class="college">Ongole</p>
+                                    <p class="cgpa">CGPA: 8.3</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-year">2019 - 2021</span>
+                                    <h4>Intermediate (MPC)</h4>
+                                    <p class="college">Sri Chaitanya Junior College</p>
+                                    <p class="cgpa">Percentage: 87%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects Column -->
+                    <div id="projects" class="col-7 projects-column">
+                        <div class="section-header" data-aos="fade-left">
+                            <span class="section-subtitle">Portfolio</span>
+                            <h2 class="section-title">Latest Projects</h2>
+                        </div>
+                        <div class="projects-grid">
+                            <!-- Project 1 -->
+                            <div class="project-card" data-aos="zoom-in">
+                                <div class="project-img">
+                                    <i class="fa-solid fa-utensils"></i>
+                                </div>
+                                <div class="project-info">
+                                    <h3>AI Talent Assessment System for Holistic Resume Analysis and Dynamic
+                                        Interviewing</h3>
+                                    <p>Developed an AI-powered recruitment system using
+                                        Python, NLP, and
+                                        Machine Learning to analyze resumes,
+                                        extract candidate data, generate adaptive
+                                        interview questions, and enable efficient,
+                                        data-driven hiring.If you want a slightly stronger techni</p>
+                                    <div class="project-tech">
+                                        <span>Python</span>
+                                        <span>Machine Learning</span>
+                                        <span>NLP</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="link-item"><i class="fa-brands fa-github"></i> Code</a>
+                                        <a href="#" class="link-item"><i
+                                                class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project 2 -->
+                            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="project-img">
+                                    <i class="fa-solid fa-id-card"></i>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Personal Portfolio</h3>
+                                    <p>Fully responsive resume portfolio website with modern UI animations.</p>
+                                    <div class="project-tech">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>JS</span>
+                                        <span>React.js</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="link-item"><i class="fa-brands fa-github"></i> Code</a>
+                                        <a href="#" class="link-item"><i
+                                                class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project 3 -->
+                            <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                                <div class="project-img">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <div class="project-info">
+                                    <h3>ASP.NET CRUD App</h3>
+                                    <p>Robust CRUD application with SQL Server integration and user authentication.</p>
+                                    <div class="project-tech">
+                                        <span>ASP.NET</span>
+                                        <span>C#</span>
+                                        <span>SQL Server</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="link-item"><i class="fa-brands fa-github"></i> Code</a>
+                                        <a href="#" class="link-item"><i
+                                                class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Section -->
+        <section id="skills" class="skills-section common-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-right">
+                    <span class="section-subtitle">Proficiencies</span>
+                    <h2 class="section-title">My Skills</h2>
+                </div>
+                <div class="row skills-row">
+                    <!-- Frontend Skills -->
+                    <div class="col-6 skills-column" data-aos="fade-up">
+                        <div class="skill-group">
+                            <h5>Frontend</h5>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-brands fa-html5"></i>
+                                        <span>HTML</span>
+                                    </div>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-brands fa-css3-alt"></i>
+                                        <span>CSS</span>
+                                    </div>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-brands fa-js"></i>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-brands fa-react"></i>
+                                        <span>React JS</span>
+                                    </div>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="col-6 skills-column" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-group">
+                            <h5>Backend & DB</h5>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-solid fa-code"></i>
+                                        <span>C#</span>
+                                    </div>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-solid fa-server"></i>
+                                        <span>ASP.NET Framework</span>
+                                    </div>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-solid fa-code"></i>
+                                        <span>MVC</span>
+                                    </div>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <div class="skill-name">
+                                        <i class="fa-solid fa-gears"></i>
+                                        <span>ASP.NET CORE</span>
+                                    </div>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 0%" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="languages-section common-padding">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-subtitle">Communication</span>
+                    <h2 class="section-title">Languages</h2>
+                </div>
+                <div class="languages-grid">
+                    <div class="lang-card" data-aos="fade-up">
+                        <div class="lang-circle" data-percent="100">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="lang-percent">100%</span>
+                        </div>
+                        <h4>Telugu</h4>
+                    </div>
+                    <div class="lang-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="lang-circle" data-percent="90">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="lang-percent">90%</span>
+                        </div>
+                        <h4>English</h4>
+                    </div>
+                    <div class="lang-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="lang-circle" data-percent="80">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="lang-percent">80%</span>
+                        </div>
+                        <h4>Hindi</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section common-padding">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+                <div class="contact-wrapper" data-aos="fade-up">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group col-6">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <span class="error-msg">Name is required</span>
+                            </div>
+                            <div class="form-group col-6">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <span class="error-msg">Valid email is required</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Maneesha Mannam. All Rights Reserved.</p>
+        </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
